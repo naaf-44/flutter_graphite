@@ -34,7 +34,8 @@ Widget _defaultNodeCellBuilder(BuildContext context, MatrixNode node) {
   return Container(
     alignment: Alignment.center,
     child: Text(node.id),
-    color: Color(0xFF26A69A),
+    //color: Color(0xFF26A69A),
+    color: Color(0xFF26F69A),
   );
 }
 
